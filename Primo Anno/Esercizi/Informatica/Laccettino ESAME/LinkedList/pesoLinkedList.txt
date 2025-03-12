@@ -20,7 +20,7 @@ begin
             esiste:=esiste(head.link,peso,somma)
         elseif (somma=peso) then
             esiste:=true
-        elseif somma > peso then
+        elseif (somma>peso) then
             esiste:=false
         endif
     endif
